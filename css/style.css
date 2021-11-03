@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: 'PT Sans Narrow', 'sans-serif';
+}
+
+h1{
+    margin-bottom:  15px;
+    font-size: 25px;
+}
+
+h2,h3{
+    color: rgb(10, 94, 250);
+}
+
+p{
+    margin: 20px 0;
+} 
+
+section .social{
+    display: flex;
+    justify-content: left;
+}
+       
+.social li{
+    list-style: none;
+    text-decoration:none;  
+}  
+    
+.social li img{
+    width: 25px;
+    text-decoration: none;
+    margin: 20px;    
+}
+
+.header{
+    font-family: 'PT Sans Narrow','sans-serif';
+    margin-top: 50px 0;
+    box-shadow: 0 3px  #0a5efa;
+    margin-bottom:5px;
+    background: #0a5efa;
+}
+
+.header img{
+    background-image: url(https://upupa.com.br/wp-content/uploads/2019/05/slogan-empresa-de-limpeza.jpg);  
+    width: 100%;
+    height: 300px;       
+}
+
+.container{
+    display: flex;    
+}
+
+.navbar{
+    line-height: 35px;
+    width: 20%;
+    padding: 30px 5px 0 0;
+}
+
+.navbar ul{
+    list-style: none;
+}
+  
+.navbar ul li{
+    margin-bottom: 5px;
+    padding:10px 0;
+    border-radius: 10px 0px;
+    text-align: center;         
+}
+
+.navbar ul li a{    
+    color: white;
+    background-color:rgb(10, 94, 250);
+    text-transform:capitalize;
+    text-decoration:none;
+    font-size: 15px;
+    padding:8px 60px;
+    margin: 0 auto;
+    border-radius: 10px 0px;
+    box-shadow: 2px 2px 0 rgb(201, 36, 36);
+}
+
+.content{
+    width: 80%;
+    height:auto;
+    font-size: 17px;
+    padding: 5px 30px;
+    box-shadow: 2px 2px 0 rgb(231, 229, 229);
+    border-radius: 50px 0;
+    background: #f7f4f4;
+    margin: 12px 12px 74px 0;    
+}
+
+.content img{
+    width: 300px;
+    margin-bottom: 12px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px 3px rgb(10, 94, 250);
+}
+
+.footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: rgb(146, 145, 145);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
